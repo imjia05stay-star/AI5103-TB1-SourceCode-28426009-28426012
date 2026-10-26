@@ -22,6 +22,3 @@ python run_ga_params.py kroA100
 ACO menghasilkan rata-rata gap terendah pada keempat instance
 (berlin52 optimum pada semua seed), tetapi memerlukan waktu komputasi
 jauh lebih lama dibanding Hill Climbing dan SA.
-
-## Laporan
-Lihat `laporan_ieee.pdf`.
