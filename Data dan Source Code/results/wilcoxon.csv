@@ -1,0 +1,5 @@
+instance,best_algo,second_algo,mean_best,mean_second,statistic,p_value,significant_5pct
+eil51,ACO,SA,430.2,444.8,-2.611,0.009,ya
+berlin52,ACO,HC-2opt,7542.0,7952.2,-2.611,0.009,ya
+st70,ACO,HC-2opt,687.6,703.0,-1.984,0.0472,ya
+kroA100,ACO,SA,21646.0,22908.6,-2.611,0.009,ya

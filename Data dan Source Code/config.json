@@ -1,0 +1,18 @@
+{
+  "instances": ["eil51", "berlin52", "st70", "kroA100"],
+  "seeds": [1, 2, 3, 4, 5],
+  "budget_evaluations": 50000,
+  "log_every": 500,
+  "algorithms": {
+    "GA-OX":  {"type": "ga", "pop_size": 100, "crossover": "ox",  "pc": 0.9, "pm": 0.2, "tournament_k": 3, "elite": 2},
+    "GA-PMX": {"type": "ga", "pop_size": 100, "crossover": "pmx", "pc": 0.9, "pm": 0.2, "tournament_k": 3, "elite": 2},
+    "ACO":    {"type": "aco", "n_ants": 30, "alpha": 1.0, "beta": 3.0, "rho": 0.5},
+    "HC-2opt": {"type": "hc", "patience": 2000},
+    "SA":     {"type": "sa"}
+  },
+  "sensitivity": {
+    "instance": "berlin52",
+    "GA-OX": {"param": "pm", "values": [0.05, 0.2, 0.5, 1.0]},
+    "ACO":   {"param": "beta", "values": [1.0, 2.0, 3.0, 5.0]}
+  }
+}
